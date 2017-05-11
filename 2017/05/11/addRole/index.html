@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>动态创建表格并添加数据（eFan） | Nian</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="动态创建表格12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010">
+<meta property="og:type" content="article">
+<meta property="og:title" content="动态创建表格并添加数据（eFan）">
+<meta property="og:url" content="http://yoursite.com/2017/05/11/addRole/index.html">
+<meta property="og:site_name" content="Nian">
+<meta property="og:description" content="动态创建表格12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010">
+<meta property="og:updated_time" content="2017-05-11T08:09:28.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="动态创建表格并添加数据（eFan）">
+<meta name="twitter:description" content="动态创建表格12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010">
+  
+    <link rel="alternate" href="/atom.xml" title="Nian" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Nian</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-addRole" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/05/11/addRole/" class="article-date">
+  <time datetime="2017-05-11T07:50:52.000Z" itemprop="datePublished">2017-05-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      动态创建表格并添加数据（eFan）
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="动态创建表格"><a href="#动态创建表格" class="headerlink" title="动态创建表格"></a>动态创建表格</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div></pre></td><td class="code"><pre><div class="line">var array = [</div><div class="line">        &#123;</div><div class="line">            &quot;id&quot;: &quot;operation_manage&quot;,</div><div class="line">            &quot;name&quot;: &quot;运营管理&quot;,</div><div class="line">            &quot;features&quot;: [</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;operation_01&quot;,</div><div class="line">                    &quot;name&quot;: &quot;商品管理&quot;,</div><div class="line">                    &quot;isChecked&quot;: true</div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;operation_02&quot;,</div><div class="line">                    &quot;name&quot;: &quot;售货机管理&quot;,</div><div class="line">                    &quot;isChecked&quot;: true</div><div class="line"></div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;operation_03&quot;,</div><div class="line">                    &quot;name&quot;: &quot;点位管理&quot;,</div><div class="line">                    &quot;isChecked&quot;: true</div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;operation_04&quot;,</div><div class="line">                    &quot;name&quot;: &quot;订单管理&quot;</div><div class="line">                &#125;</div><div class="line">            ]</div><div class="line">        &#125;,</div><div class="line">        &#123;</div><div class="line">            &quot;id&quot;: &quot;setting_manage&quot;,</div><div class="line">            &quot;name&quot;: &quot;配置中心&quot;,</div><div class="line">            &quot;features&quot;: [</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;setting_01&quot;,</div><div class="line">                    &quot;name&quot;: &quot;角色管理&quot;</div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;setting_02&quot;,</div><div class="line">                    &quot;name&quot;: &quot;组织设置&quot;,</div><div class="line">                    &quot;isChecked&quot;: true</div><div class="line">                &#125;,              </div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;setting_05&quot;,</div><div class="line">                    &quot;name&quot;: &quot;操作日志&quot;,</div><div class="line">                    &quot;isChecked&quot;: true</div><div class="line">                &#125;</div><div class="line"></div><div class="line">            ]</div><div class="line">        &#125;,</div><div class="line">        &#123;</div><div class="line">            &quot;id&quot;: &quot;commodity_library_manage&quot;,</div><div class="line">            &quot;name&quot;: &quot;商品库管理&quot;,</div><div class="line">            &quot;features&quot;: [</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;commodity_library_01&quot;,</div><div class="line">                    &quot;name&quot;: &quot;添加&quot;</div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;commodity_library_02&quot;,</div><div class="line">                    &quot;name&quot;: &quot;删除&quot;</div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;commodity_library_03&quot;,</div><div class="line">                    &quot;name&quot;: &quot;修改&quot;</div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;commodity_library_04&quot;,</div><div class="line">                    &quot;name&quot;: &quot;查看&quot;,</div><div class="line">                    &quot;isChecked&quot;: true</div><div class="line">                &#125;</div><div class="line"></div><div class="line">            ]</div><div class="line">        &#125;,</div><div class="line">        &#123;</div><div class="line">            &quot;id&quot;: &quot;finance_manage&quot;,</div><div class="line">            &quot;name&quot;: &quot;财务管理&quot;,</div><div class="line">            &quot;features&quot;: [</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;finance_01&quot;,</div><div class="line">                    &quot;name&quot;: &quot;等会计需求&quot;</div><div class="line">                &#125;</div><div class="line">            ]</div><div class="line">        &#125;,</div><div class="line">        &#123;</div><div class="line">            &quot;id&quot;: &quot;advertisement_manage&quot;,</div><div class="line">            &quot;name&quot;: &quot;广告管理&quot;,</div><div class="line">            &quot;features&quot;: [</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;advertisement_01&quot;,</div><div class="line">                    &quot;name&quot;: &quot;等外包&quot;,</div><div class="line">                    &quot;isChecked&quot;: true</div><div class="line">                &#125;</div><div class="line">            ]</div><div class="line">        &#125;,</div><div class="line">        &#123;</div><div class="line">            &quot;id&quot;: &quot;weChat_operation&quot;,</div><div class="line">            &quot;name&quot;: &quot;微信运维端&quot;,</div><div class="line">            &quot;features&quot;: [</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;weChat_operation_01&quot;,</div><div class="line">                    &quot;name&quot;: &quot;格子柜配货&quot;</div><div class="line"></div><div class="line">                &#125;,</div><div class="line">                &#123;</div><div class="line">                    &quot;value&quot;: &quot;weChat_operation_02&quot;,</div><div class="line">                    &quot;name&quot;: &quot;退货&quot;</div><div class="line"></div><div class="line"></div><div class="line">                &#125;</div><div class="line">            ]</div><div class="line">        &#125;</div><div class="line">    ];</div><div class="line">    //动态创建表格</div><div class="line">    function addData() &#123;</div><div class="line">            var myTd;</div><div class="line">            for (var i = 0; i &lt; array.length; i++) &#123;</div><div class="line">                var $name = $(&apos;&lt;tr&gt;&lt;td class=&quot;col-md-2&quot;&gt;&lt;input type=&quot;checkbox&quot; value=&quot;&apos; + array[i].id + &apos;&quot;&gt;&apos; + array[i].name + &apos;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&apos;);</div><div class="line">                $(&apos;table&apos;).append($name);</div><div class="line">                var featuresArr = array[i].features;</div><div class="line">                for (var j = 0; j &lt; featuresArr.length; j++) &#123;</div><div class="line">                    var features = featuresArr[j].name;</div><div class="line">                    var featuresValue = featuresArr[j].value;</div><div class="line">                    var featuresIsChecked = featuresArr[j].isChecked;</div><div class="line">                    if (featuresIsChecked) &#123;</div><div class="line">                        myTd = $(&apos;&lt;span&gt;&lt;input checked=&quot;checked&quot; type=&quot;checkbox&quot; value=&quot;&apos; + featuresValue + &apos;&quot;&gt;&apos; + features + &apos;&lt;/span&gt;&apos;);</div><div class="line">                    &#125; else &#123;</div><div class="line">                        myTd = $(&apos;&lt;span&gt;&lt;input  type=&quot;checkbox&quot; value=&quot;&apos; + featuresValue + &apos;&quot;&gt;&apos; + features + &apos;&lt;/span&gt;&apos;)</div><div class="line">                    &#125;</div><div class="line">                    $($(&apos;table tr&apos;)[i]).find(&apos;td&apos;).eq(1).append(myTd);</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">    </div><div class="line">            $(&apos;#table tr td:odd input:checkbox:checked&apos;).parent().parent().siblings().find(&apos;input&apos;).prop(&apos;checked&apos;,true);</div><div class="line">        &#125;</div></pre></td></tr></table></figure>
+<h3 id="input框全选正选反选"><a href="#input框全选正选反选" class="headerlink" title="input框全选正选反选"></a>input框全选正选反选</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">  //全选</div><div class="line">var isChecked = false;</div><div class="line">   function checkAll() &#123;</div><div class="line">       isChecked = !isChecked;</div><div class="line">       $(&apos;input:checkbox&apos;).prop(&apos;checked&apos;, isChecked);</div><div class="line">   &#125;</div><div class="line">   //正选</div><div class="line">   $(&apos;#table tr td:even&apos;).on(&apos;click&apos;, function () &#123;</div><div class="line">       var isCheck = $(this).find(&apos;input&apos;).prop(&apos;checked&apos;);</div><div class="line">       $(this).siblings().find(&apos;input&apos;).prop(&apos;checked&apos;, isCheck);</div><div class="line">   &#125;);</div><div class="line">   //反选</div><div class="line">   $(&apos;#table tr td:odd&apos;).on(&apos;click&apos;, function () &#123;</div><div class="line">       var trueNum = 0;</div><div class="line">       $(this).find(&apos;input&apos;).each(function (i, e) &#123;</div><div class="line"></div><div class="line">           if (e.checked) &#123;</div><div class="line">               trueNum++;</div><div class="line">           &#125;</div><div class="line">           if (trueNum &gt; 0) &#123;</div><div class="line">               $(this).parent().parent().siblings().find(&apos;input&apos;).prop(&apos;checked&apos;, true)</div><div class="line">           &#125; else &#123;</div><div class="line">               $(this).parent().parent().siblings().find(&apos;input&apos;).prop(&apos;checked&apos;, false)</div><div class="line">           &#125;</div><div class="line">       &#125;)</div><div class="line"></div><div class="line">   &#125;);</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/05/11/addRole/" data-id="cj2k59bqh0002scymmv1i4zo7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/05/11/select/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          select框存值取值(eFan)
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/05/11/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/11/select/">select框存值取值(eFan)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/11/addRole/">动态创建表格并添加数据（eFan）</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 Liu Piao<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
